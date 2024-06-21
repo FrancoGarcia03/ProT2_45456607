@@ -68,6 +68,8 @@ nav {
         text-align:center;
     }
     /*barra de nav */ 
-    .navbar {
-        display: flex;
-        justify-content: center;}
+   
+    .menu-dropdown-text {
+            color: white; /* Cambia 'red' al color que prefieras */
+        }
+        
