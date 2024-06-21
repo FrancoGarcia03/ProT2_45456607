@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de prueba</title>
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity=" " crossorigin=" ">
+    <link rel="stylesheet" href="assets/css/miestilo.css"> 
+</head>
+
+<body>
+    <header>
+        <h1>The Watch Shop</h1>
+        </header>
+<div class="container mt-5 mb-5 d-flex justify-content-center">
+    <div class="card" style="width: 50%;">
+      <div class="card-header text-center">
+        <h2>Iniciar sesión</h2>
+      </div>
+      <div class="card-body">
+        <form method="post" action="/enviarlogin">
+          <div class="alert alert-warning" role="alert">
+            <!-- Contenido dinámico aquí -->
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="form-label">Correo</label>
+            <input name="email" type="text" class="form-control" placeholder="correo">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+            <input name="pass" type="password" class="form-control" placeholder="contraseña">
+          </div>
+          <button type="submit" class="btn btn-success">Ingresar</button>
+          <a href="/login" class="btn btn-danger">Cancelar</a>
+          <p>¿Aún no se registró? <a href="/registro">Registrarse aquí</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>    
+    
+    <script src="assets/js/bootstrap.bundle.min.js" integrity=" " crossorigin=" "></script>
+    <div> 
+    <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/descarga.jpg" width="70" height="70" alt="Instagram"></a>
+</div>
+</footer>
+</body>
+
+</html>
